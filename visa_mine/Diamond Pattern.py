@@ -1,0 +1,5 @@
+n=int(input())
+for i in range(1,n+1): #first half (increasing stars)
+    print('*'*i)
+for i in range(n-1,0,-1): #second half (decreasing stars)
+    print('*'*i)
